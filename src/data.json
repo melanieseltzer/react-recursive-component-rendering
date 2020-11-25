@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": 2,
+    "name": "Services",
+    "level": 1,
+    "children": [
+      {
+        "id": 5,
+        "name": "Computer Repair",
+        "level": 2,
+        "children": [
+          {
+            "id": 10,
+            "name": "Cracked Screen",
+            "level": 3
+          },
+          {
+            "id": 11,
+            "name": "RAM upgrade",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Virus Removal",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Products",
+    "level": 1,
+    "children": [
+      {
+        "id": 7,
+        "name": "Desk chairs",
+        "level": 2
+      },
+      {
+        "id": 8,
+        "name": "Mice",
+        "level": 2
+      },
+      {
+        "id": 9,
+        "name": "Keyboards",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "About Us",
+    "level": 1,
+    "children": []
+  }
+]
