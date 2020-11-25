@@ -5,7 +5,7 @@ import {
 } from "react-icons/bs";
 
 import sitemap from "./data.json";
-import { getLeveledPadding, isOpen, hasChildren } from "./utils";
+import { isOpen, hasChildren } from "./utils";
 
 import "./styles.css";
 
@@ -14,7 +14,7 @@ function Sitemap({ items }) {
     <ul>
       {items.map((item) => {
         return (
-          <li key={item.id} style={getLeveledPadding(item.level)}>
+          <li key={item.id}>
             {item.name}
 
             {/* ✨ Yay for recursion! ✨ */}
@@ -50,7 +50,7 @@ function Accordion({ items, selectedItems, setSelectedItems }) {
   return (
     <ul>
       {items.map((item) => (
-        <li key={item.id} style={getLeveledPadding(item.level)}>
+        <li key={item.id}>
           <button onClick={(event) => handleOnClick(event, item)}>
             {item.name} {renderArrow(item)}
           </button>
